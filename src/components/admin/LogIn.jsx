@@ -57,6 +57,7 @@ export default function LogIn({ userSetter }) {
             placeholder="Šifra"
             onChange={(e) => {
               setPassword(e.target.value);
+              
             }}
             onKeyPress={(event) => {
               var key = event.keyCode || event.which;
